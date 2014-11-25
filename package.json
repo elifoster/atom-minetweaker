@@ -10,7 +10,7 @@
   "homepage": "https://github.com/satanicsanta/atom-minetweaker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/satanicsanta/atom-minetweaker.git",
+    "url": "https://github.com/satanicsanta/atom-minetweaker.git"
   },
   "bugs": {
     "url": "https://github.com/satanicsanta/atom-minetweaker/issues"
