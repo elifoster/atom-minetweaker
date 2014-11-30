@@ -1,9 +1,32 @@
 @import "syntax-variables";
 
-.editor .semicolon.minetweaker, .editor .grammar.minetweaker {
-  color: mix(#ff0, @syntax-text-color, 10%);
+@orange: #a56b32;
+@gray: #352b22;
+@red: #a55027;
+@black: #FFFFFF;
+@light-gray: #9b836a;
+@blue: #40796b;
+
+.editor .semicolon.minetweaker {
+  color: @orange;
 }
 
-.editor .functions.minetweaker, .editor .stuff.minetweaker, .editor .styles.minetweaker, .editor .import.minetweaker {
-  color: mix(#0ff, @syntax-text-color, 60%);
+.editor .functions.minetweaker {
+  color: @gray;
+}
+
+.editor .stuff.minetweaker {
+  color: @red;
+}
+
+.editor .styles.minetweaker{
+  color: @black;
+}
+
+.editor .import.minetweaker{
+  color: @light-gray;
+}
+
+.editor .grammar.minetweaker{
+  color: @blue;
 }

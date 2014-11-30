@@ -1,43 +1,36 @@
-'name': 'Minetweaker'
 'scopeName': 'source.minetweaker'
+'name': 'Minetweaker'
 'fileTypes': [
   'zs'
   ]
-
-'repository': {
-  'end_line': {
-    'comment': 'End of line semicolon'
+'patterns': [
+  {
     'name': 'semicolon.minetweaker'
     'match': ';'
   }
 
-  'functions': {
-    'comment': 'Functions'
+  {
     'name': 'functions.minetweaker'
-    'match': '(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)'
+    'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)'
   }
 
-  'stuff': {
-    'comment': 'Stuff'
+  {
     'name': 'stuff.minetweaker'
-    'match': '(for|in|val)'
+    'match': '\\b(for|in|val)'
   }
 
-  'styles': {
-    'comment': 'Text styles'
+  {
     'name': 'styles.minetweaker'
-    'match': '(format|italic|strikethrough)'
+    'match': '\\b(format|italic|strikethrough)'
   }
 
-  'import': {
-    'comment': 'Importing'
+  {
     'name': 'import.minetweaker'
-    'match': '(import)'
+    'match': '\\b(import)'
   }
 
-  'grammar': {
-    'comment': 'Grammar'
+  {
     'name': 'grammar.minetweaker'
-    'match': '((|)|.|"|<|>|:|[|])'
+    'match': '\\b((|)|.|"|<|>|:|[|])'
   }
-}
+]
