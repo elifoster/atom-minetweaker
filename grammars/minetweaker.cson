@@ -3,7 +3,7 @@
 'fileTypes': [
   'zs'
 ]
-'repository': {
+'patterns': [
   'semicolon': {
     'name': 'semicolon.minetweaker'
     'match': ';'
@@ -28,4 +28,4 @@
     'name': 'grammar.minetweaker'
     'match': '\\b(.|"|<|>|:|[|])\\b'
   }
-}
+]
