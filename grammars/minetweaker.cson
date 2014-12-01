@@ -9,7 +9,7 @@
     'name': 'semicolon.minetweaker'
   }
   {
-    'match': '\\b(print|recipes.addShaped|recipes.remove|recipes.addShapeless|recipes.addShapedMirrored|furnace.addRecipe|recipes.removeShaped|recipes.removeShapeless|furnace.setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.loot.addChestLoot|vanilla.loot.addSeed|vanilla.loot.removeSeed|game.setLocalisation|vanilla.loot.removeChestLoot)\\b'
+    'match': '\\b(print|recipes.addShaped|recipes.remove|recipes.addShapeless|recipes.addShapedMirrored|furnace.addRecipe|recipes.removeShaped|recipes.removeShapeless|furnace.setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.loot.addChestLoot|vanilla.seeds.addSeed|vanilla.seeds.removeSeed|game.setLocalisation|vanilla.loot.removeChestLoot)\\b'
     'name': 'functions.minetweaker'
   }
   {
