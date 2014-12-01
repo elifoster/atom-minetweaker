@@ -3,6 +3,7 @@
   "version": "0.1.4",
   "description": "Minetweaker syntax highlighting in Atom",
   "license": "MIT",
+  "engines": {"atom": "*"},
   "theme": "syntax",
   "dependencies": {},
   "homepage": "https://github.com/satanicsanta/atom-minetweaker",

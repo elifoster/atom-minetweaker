@@ -1,28 +1,29 @@
 'name': 'Minetweaker'
 'fileTypes': ['zs']
+'scopeName': 'source.minetweaker'
 'repository': {
-  'semicolon':
+  'semicolon': {
     'name': 'semicolon.minetweaker'
     'match': ';'
-
-  'functions':
+  }
+  'functions':{
     'name': 'functions.minetweaker'
     'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)\\b'
-
-  'stuff':
+  }
+  'stuff': {
     'name': 'stuff.minetweaker'
     'match': '\\b(for|in|val)\\b'
-
-  'styles':
+  }
+  'styles': {
     'name': 'styles.minetweaker'
     'match': '\\b(format|italic|strikethrough)\\b'
-
-  'import':
+  }
+  'import': {
     'name': 'import.minetweaker'
-    'match': '\\b(import)\\b'
-
-  'grammar':
+    'match': '\\bimport\\b'
+  }
+  'grammar':{
     'name': 'grammar.minetweaker'
-    'match': '\\b((|)|.|"|<|>|:|[|])\\b'
-'scopeName': 'source.minetweaker'
+    'match': '\\b(.|"|<|>|:|[|])\\b'
+  }
 }
