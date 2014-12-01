@@ -25,7 +25,7 @@
     'name': 'import.minetweaker'
   }
   {
-    'match': '[\."<>:\[\]\(\)]'
+    'match': '\\b[\."<>:\[\]\(\)]\\b'
     'name': 'grammar.minetweaker'
   }
 ]
