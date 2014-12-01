@@ -1,6 +1,8 @@
-'name': 'Minetweaker'
-'fileTypes': ['zs']
+'name': 'MineTweaker'
 'scopeName': 'source.minetweaker'
+'fileTypes': [
+  'zs'
+]
 'repository': {
   'semicolon': {
     'name': 'semicolon.minetweaker'
