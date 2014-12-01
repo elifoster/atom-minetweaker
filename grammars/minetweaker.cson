@@ -1,9 +1,7 @@
 'name': 'Minetweaker'
-'fileTypes': [
-  'zs'
-  ]
-'repository':
-  'semicolons':
+'fileTypes': ['zs']
+'repository': {
+  'semicolon':
     'name': 'semicolon.minetweaker'
     'match': ';'
 
@@ -27,3 +25,4 @@
     'name': 'grammar.minetweaker'
     'match': '\\b((|)|.|"|<|>|:|[|])\\b'
 'scopeName': 'source.minetweaker'
+}
