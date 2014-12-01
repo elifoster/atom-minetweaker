@@ -9,7 +9,7 @@
     'name': 'semicolon.minetweaker'
   }
   {
-    'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)\\b'
+    'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|addRecipe|removeShaped|removeShapeless|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)\\b'
     'name': 'functions.minetweaker'
   }
   {
@@ -25,7 +25,7 @@
     'name': 'import.minetweaker'
   }
   {
-    'match': '\\b(.|"|<|>|:|[|])\\b'
+    'match': '."<>:[]()'
     'name': 'grammar.minetweaker'
   }
 ]
