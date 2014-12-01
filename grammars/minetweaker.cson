@@ -1,36 +1,29 @@
-'scopeName': 'source.minetweaker'
 'name': 'Minetweaker'
 'fileTypes': [
   'zs'
   ]
-'patterns': [
-  {
+'repository':
+  'semicolons':
     'name': 'semicolon.minetweaker'
     'match': ';'
-  }
 
-  {
+  'functions':
     'name': 'functions.minetweaker'
-    'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)'
-  }
+    'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)\\b'
 
-  {
+  'stuff':
     'name': 'stuff.minetweaker'
-    'match': '\\b(for|in|val)'
-  }
+    'match': '\\b(for|in|val)\\b'
 
-  {
+  'styles':
     'name': 'styles.minetweaker'
-    'match': '\\b(format|italic|strikethrough)'
-  }
+    'match': '\\b(format|italic|strikethrough)\\b'
 
-  {
+  'import':
     'name': 'import.minetweaker'
-    'match': '\\b(import)'
-  }
+    'match': '\\b(import)\\b'
 
-  {
+  'grammar':
     'name': 'grammar.minetweaker'
-    'match': '\\b((|)|.|"|<|>|:|[|])'
-  }
-]
+    'match': '\\b((|)|.|"|<|>|:|[|])\\b'
+'scopeName': 'source.minetweaker'
