@@ -24,8 +24,4 @@
     'match': '\\bimport\\b'
     'name': 'import.minetweaker'
   }
-  {
-    'match': '(\.|"|<|>|:|\[|\]|\(|\))'
-    'name': 'grammar.minetweaker'
-  }
 ]
