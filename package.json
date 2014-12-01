@@ -1,9 +1,11 @@
 {
   "name": "minetweaker",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Minetweaker syntax highlighting in Atom",
   "license": "MIT",
-  "engines": {"atom": "*"},
+  "engines": {
+    "atom": "*"
+  },
   "theme": "syntax",
   "dependencies": {},
   "homepage": "https://github.com/satanicsanta/atom-minetweaker",
