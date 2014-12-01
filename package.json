@@ -1,6 +1,6 @@
 {
   "name": "minetweaker",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Minetweaker syntax highlighting in Atom",
   "license": "MIT",
   "engines": {
