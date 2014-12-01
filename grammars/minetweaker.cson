@@ -4,28 +4,28 @@
   'zs'
 ]
 'patterns': [
-  'semicolon': {
-    'name': 'semicolon.minetweaker'
+  {
     'match': ';'
+    'name': 'semicolon.minetweaker'
   }
-  'functions':{
-    'name': 'functions.minetweaker'
+  {
     'match': '\\b(print|recipes|addShaped|remove|addShapeless|addShapedMirrored|removeShaped|removeShapeless|furnace|setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|addChestLoot|addSeed|removeSeed|setLocalization)\\b'
+    'name': 'functions.minetweaker'
   }
-  'stuff': {
-    'name': 'stuff.minetweaker'
+  {
     'match': '\\b(for|in|val)\\b'
+    'name': 'stuff.minetweaker'
   }
-  'styles': {
-    'name': 'styles.minetweaker'
+  {
     'match': '\\b(format|italic|strikethrough)\\b'
+    'name': 'styles.minetweaker'
   }
-  'import': {
-    'name': 'import.minetweaker'
+  {
     'match': '\\bimport\\b'
+    'name': 'import.minetweaker'
   }
-  'grammar':{
-    'name': 'grammar.minetweaker'
+  {
     'match': '\\b(.|"|<|>|:|[|])\\b'
+    'name': 'grammar.minetweaker'
   }
 ]
