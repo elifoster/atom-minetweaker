@@ -24,4 +24,14 @@
     'match': '\\bimport\\b'
     'name': 'import.minetweaker'
   }
+  {
+    'begin': '//'
+    'end': '$'
+    'name': 'comment.normal.minetweaker'
+  }
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.multi.minetweaker'
+  }
 ]
