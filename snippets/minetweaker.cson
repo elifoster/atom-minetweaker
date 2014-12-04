@@ -1,0 +1,91 @@
+".source.minetweaker .specs":
+  "Print":
+    prefix: "pr"
+    body: "print()"
+  "Import":
+    prefix: "imp"
+    body: "import "
+  "Recipe":
+    prefix: "re"
+    body: "recipes."
+  "add":
+    prefix: "ad"
+    body: "add"
+  "Shapeless":
+    prefix: "Shapel"
+    body: "Shapeless()"
+  "remove":
+    prefix: "rem"
+    body: "remove()"
+  "Mirrored":
+    prefix: "Mirr"
+    body: "Mirrored()"
+  "furnace":
+    prefix: "fur"
+    body: "furnace."
+  "set":
+    prefix: "se"
+    body: "set"
+  "Fuel":
+    prefix: "Fu"
+    body: "Fuel"
+  "game":
+    prefix: "ga"
+    body: "game."
+  "Localisation":
+    prefix: "Loc"
+    body: "Localisation()"
+  "vanilla":
+    prefix: "va"
+    body: "vanilla."
+  "loot":
+    prefix: "lo"
+    body: "loot."
+  "ChestLoot":
+    prefix: "ch"
+    body: "ChestLoot()"
+  "seeds":
+    prefix: "se"
+    body: "seeds."
+  "Seed":
+    prefix: "Se"
+    body: "Seed"
+  "Tooltip":
+    prefix: "to"
+    body: "Tooltip"
+  "Shift":
+    prefix: "shi"
+    body: "Shift"
+  "format":
+    prefix: "fo"
+    body: "format."
+  "black":
+    prefix: "bl"
+    body: "black()"
+  "obfuscated":
+    prefix: "obf"
+    body: "obfuscated()"
+  "bold":
+    prefix: "bo"
+    body: "bold()"
+  "strikethrough":
+    prefix: "str"
+    body: "strikethrough()"
+  "underline":
+    prefix: "und"
+    body: "underline()"
+  "italic":
+    prefix: "ita"
+    body: "italic()"
+  "multilinecomment":
+    prefix: "/\\*"
+    body: "/\\*\n\\*/"
+  "withTag":
+    prefix: "wi"
+    body: "withTag()"
+  "only":
+    prefix: "on"
+    body: "only"
+  "Damage"
+    prefix: "da"
+    body: "Damage"
