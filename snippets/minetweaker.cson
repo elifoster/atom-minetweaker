@@ -1,4 +1,4 @@
-".source.minetweaker .specs":
+".source.minetweaker":
   "Print":
     prefix: "pr"
     body: "print()"
