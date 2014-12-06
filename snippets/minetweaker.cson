@@ -86,6 +86,6 @@
   "only":
     prefix: "on"
     body: "only"
-  "Damage"
+  "Damage":
     prefix: "da"
     body: "Damage"
