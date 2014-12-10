@@ -45,7 +45,7 @@
     prefix: "ch"
     body: "ChestLoot()"
   "seeds":
-    prefix: "se"
+    prefix: "see"
     body: "seeds."
   "Seed":
     prefix: "Se"
