@@ -1,4 +1,4 @@
 atom-minetweaker
 ================
 
-Minetweaker language highlighting for Atom.
+MineTweaker syntax highlighting and auto-completion for Atom.
