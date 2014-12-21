@@ -9,7 +9,7 @@
     'name': 'semicolon.minetweaker'
   }
   {
-    'match': '\\b(print|recipes.*+?(?=()|furnace.*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.*|game.*)\\b'
+    'match': '\\b(print|recipes.[^(]*|furnace.*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.*|game.*)\\b'
     'name': 'functions.minetweaker'
   }
   {
