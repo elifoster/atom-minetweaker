@@ -9,7 +9,7 @@
     'name': 'semicolon.minetweaker'
   }
   {
-    'match': '\\b(print|recipes.addShaped|recipes.remove|recipes.addShapeless|recipes.addShapedMirrored|furnace.addRecipe|recipes.removeShaped|recipes.removeShapeless|furnace.setFuel|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.loot.addChestLoot|vanilla.seeds.addSeed|vanilla.seeds.removeSeed|game.setLocalisation|vanilla.loot.removeChestLoot)\\b'
+    'match': '\\b(print|recipes.*|furnace.*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla.*|game.*)\\b'
     'name': 'functions.minetweaker'
   }
   {
@@ -17,7 +17,7 @@
     'name': 'stuff.minetweaker'
   }
   {
-    'match': '\\b(format.italic|format.strikethrough|format.black|format.obfuscated|format.bold|format.underline)\\b'
+    'match': '\\b(format.*)\\b'
     'name': 'styles.minetweaker'
   }
   {
@@ -33,5 +33,57 @@
     'begin': '/\\*'
     'end': '\\*/'
     'name': 'comment.multi.minetweaker'
+  }
+  {
+    'match': '\\b(mods.*|)\\b'
+    'name': 'functions.minetweaker.mods'
+  }
+  {
+    'match': '\\b(bloodmagic.*|Altar.*|Alchemy.*|BloodOrb.*)\\b'
+    'name': 'functions.minetweaker.mods.bloodmagic'
+  }
+  {
+    'match': '\\b(botania.*|ElvenTrade.*|ManaInfusion.*|Apothecary.*|RuneAltar.*|Orechid.*)\\b'
+    'name': 'functions.minetweaker.mods.botania'
+  }
+  {
+    'match': '\\b(exnihilo.*|Composting.*|Crucible.*|Hammer.*|Sieve.*)\\b'
+    'name': 'functions.minetweaker.mods.exnihilo'
+  }
+  {
+    'match': '\\b(factorization.*|Crystallizer.*|Lacerator.*|SlagFurnace.*)\\b'
+    'name': 'functions.minetweaker.mods.factorization'
+  }
+  {
+    'match': '\\b(hee.*|EssenceAltar.*)\\b'
+    'name': 'functions.minetweaker.mods.hardcoreenderexpansion'
+  }
+  {
+    'match': '\\b(mariculture.*|Anvil.*|Casting.*|Fishing.*|Vat.*)\\b'
+    'name': 'functions.minetweaker.mods.mariculture'
+  }
+  {
+    'match': '\\b(mekanism.*|chemical.*|Dissolution.*|Infuser.*|Oxidizer.*|Washer.*|Combiner.*|Compressor.*|Crusher.*|Enrichment.*|Infuser.*|Purification.*|Sawmill.*|Separator.*)\\b'
+    'name': 'functions.minetweaker.mods.mekanism'
+  }
+  {
+    'match': '\\b(metallurgy.*|Alloyer.*)\\b'
+    'name': 'functions.minetweaker.mods.metallurgy'
+  }
+  {
+    'match': '\\b(pneumaticcraft.*|Pressure.*|Assembly.*)\\b'
+    'name': 'functions.minetweaker.mods.pneumaticcraft'
+  }
+  {
+    'match': '\\b(railcraft.*|BlastFurnace.*|CokeOven.*|RockCrusher.*|Rolling.*)\\b'
+    'name': 'functions.minetweaker.mods.railcraft'
+  }
+  {
+    'match': '\\b(thaumcraft.*|Aspects.*|Infusion.*|Arcane.*)\\b'
+    'name': 'functions.minetweaker.mods.thaumcraft'
+  }
+  {
+    'match': '\\b(tconstruct.*|Casting.*|Drying.*|Smeltery.*|ToolStats.*|Tweaks.*)\\b'
+    'name': 'functions.minetweaker.mods.tinkersconstruct'
   }
 ]
