@@ -89,3 +89,171 @@
   "Damage":
     prefix: "da"
     body: "Damage"
+  "mods":
+    prefix: "mo"
+    body: "mods."
+  "bloodmagic":
+    prefix: "bl"
+    body: "bloodmagic."
+  "Altar":
+    prefix: "Alt"
+    body: "Altar."
+  "Alchemy":
+    prefix: "Alc"
+    body: "Alchemy."
+  "BloodOrb":
+    prefix: "Blo"
+    body: "BloodOrb."
+  "botania":
+    prefix: "bot"
+    body: "botania."
+  "ElvenTrade":
+    prefix: "Elv"
+    body: "ElvenTrade."
+  "ManaInfusion":
+    prefix: "Man"
+    body: "ManaInfusion."
+  "Apothecary":
+    prefix: "Apoth"
+    body: "Apothecary."
+  "RuneAltar":
+    prefix: "Run"
+    body: "RuneAltar."
+  "Orechid":
+    prefix: "Ore"
+    body: "Orechid."
+  "exnihilo":
+    prefix: "exn"
+    body: "exnihilo."
+  "Composting":
+    prefix: "Comp"
+    body: "Composting."
+  "Crucible":
+    prefix: "Cru"
+    body: "Crucible."
+  "Hammer":
+    prefix: "Ham"
+    body: "Hammer."
+  "Sieve":
+    prefix: "Sie"
+    body: "Sieve."
+  "factorization":
+    prefix: "fact"
+    body: "factorization."
+  "Crystallizer":
+    prefix: "Cryst"
+    body: "Crystallizer."
+  "Lacerator":
+    prefix: "Lac"
+    body: "Lacerator."
+  "SlagFurnace":
+    prefix: "Slag"
+    body: "SlagFurnace."
+  "EssenceAltar":
+    prefix: "Esse"
+    body: "EssenceAltar."
+  "mariculture":
+    prefix: "mari"
+    body: "mariculture."
+  "Anvil":
+    prefix: "Anv"
+    body: "Anvil."
+  "Casting":
+    prefix: "Cast"
+    body: "Casting."
+  "Fishing":
+    prefix: "Fish"
+    body: "Fishing."
+  "mekanism":
+    prefix: "mek"
+    body: "mekanism."
+  "chemical":
+    prefix: "chem"
+    body: "chemical."
+  "Dissolution":
+    prefix: "Diss"
+    body: "Dissolution."
+  "Infuser":
+    prefix: "Infu"
+    body: "Infuser."
+  "Oxidizer":
+    prefix: "Oxi"
+    body: "Oxidizer."
+  "Washer":
+    prefix: "Was"
+    body: "Washer."
+  "Combiner":
+    prefix: "Comb"
+    body: "Combiner."
+  "Compressor":
+    prefix: "Comp"
+    body: "Compressor."
+  "Crusher":
+    prefix: "Crus"
+    body: "Crusher."
+  "Enrichment":
+    prefix: "Enric"
+    body: "Enrichment."
+  "Purification":
+    prefix: "Pur"
+    body: "Purification."
+  "Sawmill":
+    prefix: "Saw"
+    body: "Sawmill."
+  "Separator":
+    prefix: "Sep"
+    body: "Separator."
+  "metallurgy":
+    prefix: "metal"
+    body: "metallurgy."
+  "Alloyer":
+    prefix: "Allo"
+    body: "Alloyer."
+  "pneumaticcraft":
+    prefix: "pne"
+    body: "pneumaticcraft."
+  "Pressure":
+    prefix: "Pres"
+    body: "Pressure."
+  "Assembly":
+    prefix: "Ass"
+    body: "Assembly."
+  "railcraft":
+    prefix: "rail"
+    body: "railcraft."
+  "BlastFurnace":
+    prefix: "Blas"
+    body: "BlastFurnace."
+  "CokeOven":
+    prefix: "Cok"
+    body: "CokeOven."
+  "RockCrusher":
+    prefix: "Rock"
+    body: "RockCrusher." #AND
+  "Rolling":
+    prefix: "Roll" #FUCK YES
+    body: "Rolling."
+  "thaumcraft":
+    prefix: "thaum"
+    body: "thaumcraft."
+  "Aspects":
+    prefix: "Asp"
+    body: "Aspects."
+  "Infusion":
+    prefix: "Infus"
+    body: "Infusion."
+  "Arcane":
+    prefix: "Arc"
+    body: "Arcane."
+  "tconstruct":
+    prefix: "tc"
+    body: "tconstruct"
+  "Drying":
+    prefix: "Dry"
+    body: "Drying."
+  "Smeltery":
+    prefix: "Smel"
+    body: "Smeltery."
+  "Tweaks":
+    prefix: "Twe"
+    body: "Tweaks."
