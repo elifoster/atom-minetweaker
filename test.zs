@@ -34,13 +34,13 @@ print(<minecraft:chest>.displayName);
 multi line comment
 */
 
-withTag
-onlyWithTag
-onlyDamaged
-onlyDamageAtLeast
-onlyDamageAtMost
-onlyDamageBetween
-<ore:shit>
-add
-addAll
-mirror
+withTag;
+onlyWithTag;
+onlyDamaged;
+onlyDamageAtLeast;
+onlyDamageAtMost;
+onlyDamageBetween;
+<ore:shit>;
+add;
+addAll;
+mirror;
