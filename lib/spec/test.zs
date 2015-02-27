@@ -14,7 +14,7 @@ for in
 game.setLocalisation
 {}
 []
-    vanilla.loot.addChestLoot
+vanilla.loot.addChestLoot
 vanilla.loot.removeChestLoot
 vanilla.seeds.addSeed
 vanilla.seeds.removeSeed
