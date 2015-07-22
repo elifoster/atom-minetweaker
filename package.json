@@ -1,18 +1,18 @@
 {
   "name": "minetweaker",
-  "version": "3.3.8",
+  "version": "4.0.0-alpha",
   "description": "MineTweaker syntax highlighting and auto-completion in Atom",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": "*"
   },
   "dependencies": {},
-  "homepage": "https://github.com/elifoster/atom-minetweaker",
+  "homepage": "https://github.com/Nentify/atom-minetweaker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/elifoster/atom-minetweaker.git"
+    "url": "https://github.com/Nentify/atom-minetweaker.git"
   },
   "bugs": {
-    "url": "https://github.com/elifoster/atom-minetweaker/issues"
+    "url": "https://github.com/Nentify/atom-minetweaker/issues"
   }
 }

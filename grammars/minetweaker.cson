@@ -5,39 +5,49 @@
 ]
 'patterns': [
   {
-    'match': ';'
-    'name': 'semicolon.minetweaker'
+    'match': '\\b(val|var)\\b'
+    'name': 'storage.modifier.minetweaker'
   }
   {
-    'match': '\b(print|recipes\.[^\(\;]*|furnace\.[^\(\;]*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla\.[^\(]*|game\.[^\(\;]*)\b'
-    'name': 'functions.minetweaker'
+    'match': '\\b(for|in)\\b'
+    'name': 'keyword.control.minetweaker'
   }
   {
-    'match': '\\b(for|in|val|var)\\b'
-    'name': 'stuff.minetweaker'
+    'match': '\\b(format|print|recipes|furnace|vanilla)\\b'
+    'name': 'entity.name.class.minetweaker'
   }
   {
-    'match': '\\b(format.*)\\b'
-    'name': 'styles.minetweaker'
+    'match': '(?<=\\.)(black|bold)'
+    'name': 'support.class.minetweaker'
   }
   {
     'match': '\\bimport\\b'
-    'name': 'import.minetweaker'
+    'name': 'keyword.control.minetweaker'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.minetweaker'
+  }
+  {
+    'begin': '""'
+    'end': '""'
+    'name': 'string.quoted.double.minetweaker'
   }
   {
     'begin': '//'
     'end': '$'
-    'name': 'comment.normal.minetweaker'
+    'name': 'comment.line.double-slash.minetweaker'
   }
   {
     'begin': '#'
     'end': '$'
-    'name': 'comment.hash.minetweaker'
+    'name': 'comment.line.number-sign.minetweaker'
   }
   {
     'begin': '/\\*'
     'end': '\\*/'
-    'name': 'comment.multi.minetweaker'
+    'name': 'comment.block.minetweaker'
   }
   {
     'match': '\\b(mods\.[^\(\;]*|)\\b'

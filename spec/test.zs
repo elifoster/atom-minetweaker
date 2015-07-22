@@ -1,6 +1,6 @@
 print();
 import
-val
+val Hey = "hi";
 var
 recipes.addShaped(<stuff>)
 recipes.addShapeless
