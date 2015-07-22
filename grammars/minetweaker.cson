@@ -5,20 +5,20 @@
 ]
 'patterns': [
   {
-    'match': '\\b(val|var)\\b'
-    'name': 'storage.modifier.minetweaker'
+    'match': ';'
+    'name': 'semicolon.minetweaker'
   }
   {
-    'match': '\\b(for|in)\\b'
+    'match': '\\b(print|recipes\.[^\(\;]*|furnace\.[^\(\;]*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla\.[^\(]*|game\.[^\(\;]*)\\b'
+    'name': 'support.function.minetweaker'
+  }
+  {
+    'match': '\\b(for|in|val|var)\\b'
     'name': 'keyword.control.minetweaker'
   }
   {
-    'match': '\\b(format|print|recipes|furnace|vanilla)\\b'
-    'name': 'entity.name.class.minetweaker'
-  }
-  {
-    'match': '(?<=\\.)(black|bold)'
-    'name': 'support.class.minetweaker'
+    'match': '\\b(format.*)\\b'
+    'name': 'keyword.name.function.minetweaker'
   }
   {
     'match': '\\bimport\\b'
