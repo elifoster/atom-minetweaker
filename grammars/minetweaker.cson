@@ -14,7 +14,7 @@
   }
   {
     'match': '\\b(format.*)\\b'
-    'name': 'keyword.name.function.minetweaker'
+    'name': 'support.function.minetweaker'
   }
   {
     'match': '\\bimport\\b'
