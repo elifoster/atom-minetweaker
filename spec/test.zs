@@ -2,6 +2,7 @@ print();
 import
 val
 var
+
 recipes.addShaped(<stuff>)
 recipes.addShapeless
 recipes.remove

@@ -1,0 +1,52 @@
+'name': 'MineTweaker'
+'scopeName': 'source.minetweaker'
+'fileTypes': [
+  'zs'
+]
+'patterns': [
+  {
+    'match': '\\b(print|recipes\.[^\(\;]*|furnace\.[^\(\;]*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla\.[^\(]*|game\.[^\(\;]*)\\b'
+    'name': 'support.function.minetweaker'
+  }
+  {
+    'match': '\\b(for|in|val|var)\\b'
+    'name': 'keyword.control.minetweaker'
+  }
+  {
+    'match': '\\b(format.*)\\b'
+    'name': 'support.function.minetweaker'
+  }
+  {
+    'match': '\\bimport\\b'
+    'name': 'keyword.control.minetweaker'
+  }
+  {
+    'begin': '\''
+    'end': '\''
+    'name': 'string.quoted.single.minetweaker'
+  }
+  {
+    'begin': '"'
+    'end': '"'
+    'name': 'string.quoted.double.minetweaker'
+  }
+  {
+    'begin': '//'
+    'end': '$'
+    'name': 'comment.line.double-slash.minetweaker'
+  }
+  {
+    'begin': '#'
+    'end': '$'
+    'name': 'comment.line.number-sign.minetweaker'
+  }
+  {
+    'begin': '/\\*'
+    'end': '\\*/'
+    'name': 'comment.block.minetweaker'
+  }
+  {
+    'match': '\\b(mods\.[^\(\;]*|)\\b'
+    'name': 'functions.minetweaker.mods'
+  }
+]
