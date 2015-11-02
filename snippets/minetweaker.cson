@@ -229,9 +229,9 @@
     body: "CokeOven."
   "RockCrusher":
     prefix: "Rock"
-    body: "RockCrusher." #AND
+    body: "RockCrusher."
   "Rolling":
-    prefix: "Roll" #FUCK YES
+    prefix: "Roll"
     body: "Rolling."
   "thaumcraft":
     prefix: "thaum"
