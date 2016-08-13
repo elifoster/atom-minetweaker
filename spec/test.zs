@@ -26,7 +26,7 @@ doStrings(["Hello", "world"]);
 function printInts(values as int[])
 {
   for element in values {
-    print(element);
+    println(element);
   }
 }
 

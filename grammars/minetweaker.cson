@@ -5,8 +5,10 @@
 ]
 'patterns': [
   {
-    'match': '\\b(print|recipes\.[^\(\;]*|furnace\.[^\(\;]*|add|addAll|mirror|withDamage|withTag|onlyWithTag|onlyDamaged|onlyDamageAtLeast|onlyDamageAtMost|onlyDamageBetween|transformDamage|transformReplace|giveBack|noReturn|displayName|addTooltip|addShiftTooltip|vanilla\.[^\(]*|game\.[^\(\;]*)\\b'
-    'name': 'support.function.minetweaker'
+    'match': '\\b(print|println)[\(]\\b'
+    'captures':
+      '1':
+        'name': 'support.function.minetweaker'
   }
   {
     'match': '\\b(format.*)\\b'
@@ -44,5 +46,30 @@
   {
     'match': '\\b((0(b|B)[01]+)|(0(x|X)[0-9a-fA-F]+)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\\b'
     'name': 'constant.numeric.minetweaker'
+  }
+  {
+    'match': '[a-zA-Z_$][\\w$]*(?=\\s*\\.\\s*[\\w$]+)'
+    'name': 'variable.other.object.minetweaker'
+  }
+  {
+    'begin': '(\\.)\\s*([A-Za-z_$][\\w$]*)\\s*(\\()'
+    'beginCaptures':
+      '1':
+        'name': 'punctuation.separator.period.minetweaker'
+      '2':
+        'name': 'entity.name.function.minetweaker'
+      '3':
+        'name': 'punctuation.definition.parameters.begin.bracket.round.minetweaker'
+    'end': '\\)'
+    'endCaptures':
+      '0':
+        'name': 'punctuation.definition.parameters.end.bracket.round.minetweaker'
+    'name': 'meta.method-call.minetweaker'
+    'patterns': [
+      {
+        'match': ','
+        'name': 'punctuation.separator.delimiter.minetweaker'
+      }
+    ]
   }
 ]
