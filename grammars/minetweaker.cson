@@ -70,6 +70,9 @@
         'match': ','
         'name': 'punctuation.separator.delimiter.minetweaker'
       }
+      {
+        'include': '$self'
+      }
     ]
   }
 ]
