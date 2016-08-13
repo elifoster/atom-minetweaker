@@ -121,3 +121,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<minecraft:glass>,
   [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>],
   [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>],
   [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>, <minecraft:sand>, <minecraft:stone>, <minecraft:stone>]]);
+
+mods.tconstruct.Smeltery.addMelting(<IC2:itemCable:1>, <liquid:copper.molten> * 72, 350, <TConstruct:MetalBlock:3>)
+
+val cable = <IC2:itemCable:1>
+val liquid = <liquid:copper.molten>

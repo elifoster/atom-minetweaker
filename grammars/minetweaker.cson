@@ -48,6 +48,16 @@
     'name': 'constant.numeric.minetweaker'
   }
   {
+    'match': '<([a-zA-Z0-9\-\_]+):([a-zA-Z0-9\-\_]+)[:.]?([a-zA-Z0-9\-\_]+)?>'
+    'captures':
+      '1':
+        'name': 'variable.other.object.minetweaker'
+      '2':
+        'name': 'variable.other.object.minetweaker'
+      '3':
+        'name': 'variable.other.object.minetweaker'
+  }
+  {
     'match': '[a-zA-Z_$][\\w$]*(?=\\s*\\.\\s*[\\w$]+)'
     'name': 'variable.other.object.minetweaker'
   }
