@@ -7,13 +7,13 @@ var text = "Hello world";
 print(text);
 
 package myserver.util;
-export function add(x, y)
+export function addVals(x, y)
 {
   return x + y;
 }
 
-package myserver.util
-include "otherscrit.zs"
+package myserver.util;
+include "otherscrit.zs";
 
 var array = [];
 array += ["Hello"];
