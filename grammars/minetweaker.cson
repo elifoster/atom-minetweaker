@@ -48,6 +48,10 @@
     'name': 'constant.numeric.minetweaker'
   }
   {
+    'match': '(?>[a-zA-Z_]\\w*(?>[?!])?)(:)(?!:)'
+    'name': 'constant.other.nbtkey.minetweaker'
+  }
+  {
     'match': '<([a-zA-Z0-9\-\_]+):([a-zA-Z0-9\-\_]+)[:.]?([a-zA-Z0-9\-\_]+)?>'
     'captures':
       '1':
