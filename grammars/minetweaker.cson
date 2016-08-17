@@ -11,10 +11,6 @@
         'name': 'support.function.minetweaker'
   }
   {
-    'match': '\\b(format.*)\\b'
-    'name': 'support.function.minetweaker'
-  }
-  {
     'match': '\\b(val|var|package|import|include|public|export|private|class|interface|on|bool|byte|short|int|long|float|double|string|any|void|function|null|true|false|if|else|for|while|do|try|catch|return|in|is|as)\\b'
     'name': 'keyword.control.minetweaker'
   }

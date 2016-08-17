@@ -2,6 +2,9 @@
 *Older release notes (Version 3 and before) may be inaccurate or incomplete due to poor maintenance at the beginning of this project.*
 
 ## Version 4
+### 4.1.1
+* Remove specific grammar for the format method(s), as it should be handled by the general/dynamic method call grammar (#8).
+
 ### 4.1.0
 * Improve spec with actual code samples
 * Add support for numeric constants

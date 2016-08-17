@@ -126,3 +126,13 @@ mods.tconstruct.Smeltery.addMelting(<IC2:itemCable:1>, <liquid:copper.molten> * 
 
 val cable = <IC2:itemCable:1>
 val liquid = <liquid:copper.molten>
+
+import mods.nei.NEI;
+
+print("Initializing 'NEI.zs'...");
+
+#tooltips
+<minecraft:golden_axe>.addTooltip(format.red("Used For Crafting Only!"));
+<ImmersiveEngineering:tool:3>.addTooltip(format.red("Some items in book may not reflect changed recipes. Refer to NEI!"));
+
+print("Initialized 'NEI.zs'");
